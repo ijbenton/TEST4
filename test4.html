@@ -1,0 +1,31 @@
+<html>
+<head>
+   <script>
+       function updateBigImage(tinyImage, websiteLink)
+       {
+           document.getElementById("bigImg").src = tinyImage;
+		   document.getElementById("bigLink").setAttribute("href", websiteLink);
+	   }
+   </script>
+</head>
+<body>
+<a id="bigLink" href="https://www.w3schools.com" target="_blank">
+<img id="bigImg" src="http://tvmedia.ign.com/tv/image/article/730/730957/simpFamily_Vertical2f_72_1157585072.jpg" style="height:200"/><br/>
+</a>
+<a href="https://www.w3schools.com" target="_blank">
+<img src="http://tvmedia.ign.com/tv/image/article/730/730957/simpFamily_Vertical2f_72_1157585072.jpg" style="height:100" onmouseover="updateBigImage('http://tvmedia.ign.com/tv/image/article/730/730957/simpFamily_Vertical2f_72_1157585072.jpg', 'https://www.w3schools.com')"/>
+</a>
+<a href="https://www.youtube.com" target="_blank">
+<img src="https://metrouk2.files.wordpress.com/2015/09/ned-flanders-ned-flanders-28647654-1024-768.jpg" style="height:100" onmouseover="updateBigImage('https://metrouk2.files.wordpress.com/2015/09/ned-flanders-ned-flanders-28647654-1024-768.jpg', 'https://www.youtube.com')"/>
+</a>
+<a href="https://losangeles.craigslist.org" target="_blank">
+<img src="https://metrouk2.files.wordpress.com/2015/09/milhouse_van_houten.jpg" style="height:100" onmouseover="updateBigImage('https://metrouk2.files.wordpress.com/2015/09/milhouse_van_houten.jpg', 'https://losangeles.craigslist.org')"/>
+</a>
+<a href="https://www.amazon.com" target="_blank">
+<img src="http://static.highsnobiety.com/wp-content/uploads/2015/05/harry-shearer-leaves-the-simpsons-01-480x320.jpg" style="height:100" onmouseover="updateBigImage('http://static.highsnobiety.com/wp-content/uploads/2015/05/harry-shearer-leaves-the-simpsons-01-480x320.jpg', 'https://www.amazon.com')"/>
+</a>
+<a href="http://www.surfline.com/home/index.cfm" target="_blank">
+<img src="https://media4.s-nbcnews.com/j/streams/2014/December/141212/1D274907422027-today-simpsons-25-141211-Krustytheclown.today-inline-large.jpg" style="height:100" onmouseover="updateBigImage('https://media4.s-nbcnews.com/j/streams/2014/December/141212/1D274907422027-today-simpsons-25-141211-Krustytheclown.today-inline-large.jpg', 'http://www.surfline.com/home/index.cfm')"/>
+</a>
+</body>
+</html>
